@@ -1,5 +1,12 @@
 <?php
 // Diego García González y Eduardo Álvarez Alonso
+  session_start();
+  	
+    if (!isset($_SESSION['usuario'])) {
+        header("Location: loginpoo.html");
+        exit();
+    }   
+ 
     include "Objects/libro.php";
     include "Objects/peliculas.php";
     $servidor    = "bbdd";
