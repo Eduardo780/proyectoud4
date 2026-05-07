@@ -9,9 +9,9 @@
 	
 	
 	include "Objects/usuario.php";
-	//class mysqli
 	
-	$servidor = "bbdd"; //nombre base de datos compose
+	
+	$servidor = "bbdd"; 
 	$usuario = "root";
 	$contraseña = "bbdd";
 	$nombre_bbdd = "bbdd_biblioteca";
