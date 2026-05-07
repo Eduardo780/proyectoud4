@@ -4,9 +4,9 @@ error_reporting(0);
 	include "usuario.php";
 	include "libro.php";
 	include "peliculas.php";
-	//class mysqli
 	
-	$servidor = "bbdd"; //nombre base de datos compose
+	
+	$servidor = "bbdd"; 
 	$usuario = "root";
 	$contraseña = "bbdd";
 	$nombre_bbdd = "bbdd_biblioteca";
